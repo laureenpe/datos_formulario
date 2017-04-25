@@ -18,7 +18,13 @@
 
     <script>
         function myFunction() {
+            var name = document.getElementById("name").value;
+            var mail = document.getElementById("email").value;
 
+            var res = document.getElementById("name").value; // busco el id name en el html
+            res.innerHTML = name //imprimo lo que el usuario ingresa como e-mail
+            var res2 = document.getElementById("email").value; //busco el id de email en el html
+            res2.innerHTML = mail; //imprimo el mail que ingrese el usuario
         }
     </script>
 </body>
